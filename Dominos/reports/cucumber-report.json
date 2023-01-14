@@ -1,0 +1,82 @@
+[
+  {
+    "elements": [
+      {
+        "id": "as-a-dominos-customer,i-want-to-be-able-to-navigate-dominos-landing-page;customer-is-displayed-with-dominos.com-landing-page",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Customer is displayed with dominos.com landing page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the Dominos website",
+            "result": {
+              "status": "passed",
+              "duration": 11460454100
+            },
+            "line": 5,
+            "match": {
+              "location": "cases\\Dominos\\step-definitions\\dominos-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on \"Signin\"",
+            "result": {
+              "status": "passed",
+              "duration": 2311324800
+            },
+            "line": 6,
+            "match": {
+              "location": "cases\\Dominos\\step-definitions\\dominos-steps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see \"Signinpizza\"",
+            "result": {
+              "status": "passed",
+              "duration": 5048788200
+            },
+            "line": 7,
+            "match": {
+              "location": "cases\\Dominos\\step-definitions\\dominos-steps.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 404803200
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\workspace\\clt-bdd-ui\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DominosSignin",
+            "line": 3
+          },
+          {
+            "name": "@test",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-dominos-customer,i-want-to-be-able-to-navigate-dominos-landing-page",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "As a Dominos customer,I want to be able to navigate dominos landing page",
+    "tags": [],
+    "uri": "C:/workspace/Test cases/Dominos/features/dominos-signin.feature"
+  }
+]

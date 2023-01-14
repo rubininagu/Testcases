@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="as-a-dominos-customer,i-want-to-be-able-to-navigate-dominos-landing-page;customer-is-displayed-with-dominos.com-landing-page" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="@DominosSignin" value="true">
+            </property>
+            <property name="@test" value="true">
+            </property>
+            <property name="URI" value="C:/workspace/Test cases/Dominos/features/dominos-signin.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am on the Dominos website" classname="as-a-dominos-customer,i-want-to-be-able-to-navigate-dominos-landing-page;customer-is-displayed-with-dominos.com-landing-page" time="11.4604541">
+        </testcase>
+        <testcase name="When I click on &quot;Signin&quot;" classname="as-a-dominos-customer,i-want-to-be-able-to-navigate-dominos-landing-page;customer-is-displayed-with-dominos.com-landing-page" time="2.3113248">
+        </testcase>
+        <testcase name="Then I should see &quot;Signinpizza&quot;" classname="as-a-dominos-customer,i-want-to-be-able-to-navigate-dominos-landing-page;customer-is-displayed-with-dominos.com-landing-page" time="5.0487882">
+        </testcase>
+    </testsuite>
+</testsuites>
